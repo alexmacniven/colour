@@ -23,8 +23,8 @@ REQUIRED = [
 # Import the README and use it as the long-description
 # Note: README.md needs to be in the MANIFEST
 here = os.path.abspath(os.path.dirname(__file__))
-with codecs.open(os.path.join(here, 'README.md'), encoding='utf-8') as f:
-    long_description = '\n' + f.read()
+with open(os.path.join(here, 'README.md')) as f:
+    long_description = f.read()
 
 # Load the package's __version__.py module as a dictionary
 # Note: A seperate __version__.py is used so you can add imports to the
@@ -70,7 +70,7 @@ setup(
     author=AUTHOR,
     author_email=EMAIL,
     url=URL,
-    py_modules=['colour'],
+    py_modules=['colourz'],
     install_requires=REQUIRED,
     include_package_data=True,
     license='ISC',

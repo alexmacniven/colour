@@ -8,14 +8,14 @@ Print in colour, with no extra charge!
 ## Usage
 
 ```
-from colourz import Colourz
+from colourz import bold, normal
 
 # Print in bold text
->>> print(Colourz.bold("Bold text))
+>>> print(bold("Bold text))
 
 # Print text in red
->>> print(Colourz.normal("Red text", "RED"))
+>>> print(normal("Red text", "RED"))
 
 # Print text in bold red
->>> print(Colourz.bold("Bold red text", "RED"))
+>>> print(bold("Bold red text", "RED"))
 ```

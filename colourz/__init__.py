@@ -18,4 +18,4 @@ Combine the two and print in bold with colour;
 `Colourz.bold("Print this in bold red", "RED")`
 """
 
-from .colourz import Colourz
+from .colourz import *
