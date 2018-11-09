@@ -1,15 +1,21 @@
-# colour
-Write stuff in colour.
+# colourz
+Print in colour, with no extra charge!
 
 ## Installation
 
-### Source (with pip)
- - Clone this repository -- `$ git clone https://github.com/alexmacniven/colour.git`
- - Build the source -- `$ python setup.py sdist`
- - Install the package -- `$ pip install dist/colour-{version}.tar.gz`
-
-### With Pipenv
- - Install from repo -- `$ pipenv install -e git+https://github.com/alexmacniven/colour.git#egg=colour`
+`$ pipenv install colourz`
 
 ## Usage
-![colour_readme](.img/colour_readme.jpg)
+
+```
+from colourz import Colourz
+
+# Print in bold text
+>>> print(Colourz.bold("Bold text))
+
+# Print text in red
+>>> print(Colourz.normal("Red text", "RED"))
+
+# Print text in bold red
+>>> print(Colourz.bold("Bold red text", "RED"))
+```

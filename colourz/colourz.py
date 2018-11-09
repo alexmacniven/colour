@@ -1,7 +1,3 @@
-# colour.colour.py
-
-"""Implements the colour module."""
-
 from colorama import init, Fore, Style
 
 # Initialise colorama.
@@ -15,7 +11,7 @@ colours = {
     'BLUE': Fore.BLUE
 }
 
-class Colour(object):
+class Colourz(object):
     """The Colour class."""
 
     @staticmethod
