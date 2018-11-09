@@ -56,9 +56,9 @@ class UploadCommand(Command):
         os.system("{0} setup.py sdist bdist_wheel".format(sys.executable))
         print("Uploading the package to PyPI via Twine…")
         os.system("twine upload dist/*")
-        print("Pushing git tags…")
-        os.system("git tag v{0}".format(about["__version__"]))
-        os.system("git push --tags")
+        # print("Pushing git tags…")
+        # os.system("git tag v{0}".format(about["__version__"]))
+        # os.system("git push --tags")
         sys.exit()
 
 # Where the magic happens:
@@ -73,14 +73,13 @@ setup(
     py_modules=['colourz'],
     install_requires=REQUIRED,
     include_package_data=True,
-    license='ISC',
+    license='MIT',
     classifiers=[
         # Trove classifiers
         # Full list: https://pypi.python.org/pypi?%3Aaction=list_classifiers
-        "License :: OSI Approved :: ISC License",
+        "License :: OSI Approved :: MIT License",
         "Programming Language :: Python",
-        "Programming Language :: Python :: 3.6",
-        "Programming Language :: Python :: 3.7",
+        "Programming Language :: Python :: 3"
     ],
     cmdclass={
         'upload': UploadCommand
