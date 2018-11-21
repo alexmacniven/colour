@@ -7,7 +7,7 @@ name = "pypi"
 twine = "*"
 colorama = "*"
 pylint = "*"
-
+colourz = {editable = true, path = "."}
 
 [dev-packages]
 

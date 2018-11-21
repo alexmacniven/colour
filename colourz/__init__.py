@@ -19,3 +19,4 @@ Combine the two and print in bold with colour;
 """
 
 from .colourz import *
+from . import spinners
