@@ -49,4 +49,4 @@ class Bullets:
         self.busy = False
         time.sleep(self.delay)
         spacers = " " * self.linelen
-        sys.stdout.write("\r{0}".format(spacers))
+        sys.stdout.write("\r{0}\r".format(spacers))
