@@ -1,5 +1,5 @@
 # colourz
-Print in colour, with no extra charge!
+Colourz adds a coloured text output and spinners to a Windows shell (Powershell / CMD)
 
 ## Installation
 
