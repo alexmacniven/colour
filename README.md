@@ -1,5 +1,5 @@
 # colourz
-Colourz adds a coloured text output and spinners to a Windows shell (Powershell / CMD)
+Colourz adds coloured text output and spinners to a Windows shell (Powershell / CMD)
 
 ## Installation
 

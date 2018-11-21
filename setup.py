@@ -10,7 +10,8 @@ from shutil import rmtree
 
 # Package meta-data
 NAME = 'colourz'
-DESCRIPTION = 'Print in colour, with no extra charge!'
+DESCRIPTION = ('Colourz adds coloured text output and spinners to a Windows '
+               'shell  (Powershell / CMD)')
 URL = 'https://github.com/alexmacniven/colourz.git'
 EMAIL = 'apmacniven@outlook.com'
 AUTHOR = 'Alex Macniven'

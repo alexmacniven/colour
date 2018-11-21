@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "e89dc9ee46a5bc5e1a09e671885446ad2df62e431c7cafc212ad38e6751677c5"
+            "sha256": "4cf2a54e193a8c5181eccf8ec6ae2e16d79855e4d69b4362692fdca033326896"
         },
         "pipfile-spec": 6,
         "requires": {},
@@ -49,10 +49,6 @@
             ],
             "index": "pypi",
             "version": "==0.4.0"
-        },
-        "colourz": {
-            "editable": true,
-            "path": "."
         },
         "docutils": {
             "hashes": [
@@ -192,8 +188,7 @@
         },
         "webencodings": {
             "hashes": [
-                "sha256:a0af1213f3c2226497a97e2b3aa01a7e4bee4f403f95be16fc9acd2947514a78",
-                "sha256:b36a1c245f2d304965eb4e0a82848379241dc04b865afcc4aab16748587e1923"
+                "sha256:a0af1213f3c2226497a97e2b3aa01a7e4bee4f403f95be16fc9acd2947514a78"
             ],
             "version": "==0.5.1"
         },
