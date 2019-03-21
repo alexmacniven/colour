@@ -5,10 +5,15 @@ init()
 
 # Colour mappings.
 colours = {
-    'RED': Fore.RED,
-    'GREEN': Fore.GREEN,
-    'CYAN': Fore.CYAN,
-    'BLUE': Fore.BLUE
+    'BLACK':   Fore.BLACK,
+    'RED':     Fore.RED,
+    'GREEN':   Fore.GREEN,
+    'YELLOW':  Fore.YELLOW,
+    'BLUE':    Fore.BLUE,
+    'MAGENTA': Fore.MAGENTA,    
+    'CYAN':    Fore.CYAN,
+    'WHITE':   Fore.WHITE,
+    'RESET':   Fore.RESET    
 }
 
 def normal(s, c):
