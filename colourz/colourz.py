@@ -12,8 +12,7 @@ colours = {
     'BLUE':    Fore.BLUE,
     'MAGENTA': Fore.MAGENTA,    
     'CYAN':    Fore.CYAN,
-    'WHITE':   Fore.WHITE,
-    'RESET':   Fore.RESET    
+    'WHITE':   Fore.WHITE
 }
 
 def normal(s, c):
