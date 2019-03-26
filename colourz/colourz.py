@@ -15,6 +15,30 @@ colours = {
     'WHITE':   Fore.WHITE
 }
 
+def black(s):
+    return normal(s, 'BLACK')
+
+def red(s):
+    return normal(s, 'RED')
+
+def green(s):
+    return normal(s, 'GREEN')
+
+def yellow(s):
+    return normal(s, 'YELLOW')
+
+def blue(s):
+    return normal(s, 'BLUE')
+
+def magenta(s):
+    return normal(s, 'MAGENTA')
+
+def cyan(s):
+    return normal(s, 'CYAN')
+
+def white(s):
+    return normal(s, 'WHITE')
+
 def normal(s, c):
     return "{}{}{}".format(colours[c], s, Fore.RESET)
 
