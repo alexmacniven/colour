@@ -18,5 +18,5 @@ Combine the two and print in bold with colour;
 `Colourz.bold("Print this in bold red", "RED")`
 """
 
-from .colourz import normal, bold
+from .colourz import normal, bold, black, red, green, yellow, blue, magenta, cyan, white
 from .spinners import Bullets
